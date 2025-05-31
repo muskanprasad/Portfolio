@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">My Portfolio</h1>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1><span>Hi There, </span><br> I'm <span>Muskan</span></h1>
+            <p><span class="highlight">A Computer Science Grad Student</span></p>
+
+            <div class="social-icons">
+                <a href="https://github.com/muskanprasad"><img src="icons/github.svg" alt="GitHub"/></a>
+                <a href="https://www.linkedin.com/in/muskan-prasad-159404278/"><img src="icons/linkedin-brands.svg" alt="LinkedIn"/></a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="muskan.png" alt="Avatar"/>
+        </div>
+    </section>
+
+    <section id="about" class="about-me">
+        <h2 class="stretch-heading">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="stretch-paragraph">Hello! I'm Muskan, a passionate Computer Science graduate student focused on building innovative solutions through coding and design.</p>
+                <p class="stretch-paragraph">I love exploring technologies like JavaScript, React, and Python, and I enjoy working on projects that combine creativity with technical skills.</p>
+                <p class="stretch-paragraph">When I'm not coding, I like reading tech blogs, contributing to open source, and learning about UI/UX design to improve user experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>To Do List</h3>
+                <p>A simple yet effective web application built with HTML, CSS, and JavaScript that allows users to manage their daily tasks. Features include adding, deleting, and marking tasks as complete, providing a clear and intuitive interface for productivity.</p>
+                <a href="https://github.com/muskanprasad/OIBSIP/tree/main/To%20do%20list" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Virtual Assistant</h3>
+                <p>A Python-based virtual assistant capable of performing various tasks like answering queries, setting reminders, and providing information. It leverages natural language processing to understand user commands and deliver intelligent responses.</p>
+                <a href="https://github.com/muskanprasad/LGMVIP_Python/tree/main/Virtual%20Assistant" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>MERN Quiz Website</h3>
+                <p>A full-stack interactive quiz application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It features user authentication, multiple-choice questions, score tracking, and an admin panel for quiz management.</p>
+                <a href="https://github.com/YourGitHubUsername/mern-quiz-website" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>Skills & Abilities</h2>
+        <ul class="skills-list">
+            <li>HTML/CSS </li>
+            <li>JavaScript </li>
+            <li>ReactJS </li>
+            <li>Python </li>
+            <li>MySQL</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+<script src="script.js"></script>
+</html>
